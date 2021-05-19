@@ -7,8 +7,7 @@
     "server": "nodemon app.js",
     "server-install": "npm install",
     "install-all": "concurrently \"npm run server-install\"",
-    "dev": "concurrently \"npm run server\"",
-    "heroku-postbuild": "npm run build"
+    "dev": "concurrently \"npm run server\""
   },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
