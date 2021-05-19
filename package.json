@@ -6,12 +6,10 @@
   "scripts": {
     "start": "node app.js",
     "server": "nodemon app.js",
-    "client": "cd client && npm run start",
     "server-install": "npm install",
-    "client-install": "cd client && npm install",
-    "install-all": "concurrently \"npm run server-install\"  \"npm run client-install\"",
+    "install-all": "concurrently \"npm run server-install\"",
     "dev": "concurrently \"npm run server\"  \"npm run client\"",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "npm install && npm run build"
   },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
