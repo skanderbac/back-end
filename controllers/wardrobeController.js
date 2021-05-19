@@ -4,6 +4,7 @@ const multer=require('multer');
 const fs=require('fs');
 var Wardrobe=require('../model/wardrobe');
 const wardrobe = require('../model/wardrobe');
+const  jwtDecode  = require('jwt-decode');
 var WardrobeController={}
 WardrobeController.index=async (req, res, next)=>{
     res.render('index', { title: 'Express' });
@@ -49,8 +50,8 @@ WardrobeController.index=async (req, res, next)=>{
     }
   };
   WardrobeController.createWardrobe=async(req,res,next)=>{
-    const user=await Wardrobe.findOne({user_id:req.body.user_id});
-    console.log(user);
+    req.body.user_id=jwtDecode(req.body.user_id);
+    console.log(req.body.user_id);
     
     if(user) return res.status(400).send("Wardrobe not Created");
        var wardrobe=new Wardrobe(
