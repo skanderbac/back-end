@@ -3,12 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js",
-    "server": "nodemon app.js",
-    "server-install": "npm install",
-    "install-all": "concurrently \"npm run server-install\"",
-    "dev": "concurrently \"npm run server\" ",
-    "build": "npm run server"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "@hapi/joi": "^17.1.1",

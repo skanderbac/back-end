@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5273b5c1-010b-4be8-9404-ff3c8e66dde3" name="Default Changelist" comment="" />
+    <list default="true" id="fd1df03d-966b-48cf-b4fb-a8ef77bc17d4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +13,10 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1sjbAXzzBHy8Yyo9ESOpzbnqAlu" />
+  <component name="ProjectId" id="1rmKgwRms04oznYpsF7tq4kUWTA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,6 +31,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -48,16 +50,26 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5273b5c1-010b-4be8-9404-ff3c8e66dde3" name="Default Changelist" comment="" />
-      <created>1621388802727</created>
+      <changelist id="fd1df03d-966b-48cf-b4fb-a8ef77bc17d4" name="Default Changelist" comment="" />
+      <created>1619575939818</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1621388802727</updated>
-      <workItem from="1621388805556" duration="2887000" />
+      <updated>1619575939818</updated>
+      <workItem from="1619575943233" duration="3475000" />
+      <workItem from="1619996139724" duration="2068000" />
+      <workItem from="1620018066860" duration="1632000" />
+      <workItem from="1620154583355" duration="12128000" />
+      <workItem from="1621290574043" duration="14113000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1621290597497">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1621290597497" />
   </component>
 </project>
